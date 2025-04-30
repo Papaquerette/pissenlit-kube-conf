@@ -6,6 +6,7 @@ spec:
   type: ClusterIP
   externalIPs:
     - 192.168.60.110
+    - 172.18.0.2
   ports:
     - port: 8080
       targetPort: 8080
