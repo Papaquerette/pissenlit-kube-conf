@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: app1
-          image: bashofmann/rancher-demo:1.0.0
+          image: stelirion/pissenlit:v1.0.1
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           env:
             - name: COW_COLOR
               value: purple

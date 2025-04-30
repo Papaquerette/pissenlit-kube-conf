@@ -9,6 +9,6 @@ spec:
     - 172.18.0.2
   ports:
     - port: 8080
-      targetPort: 8080
+      targetPort: 80
   selector:
     app: app1
