@@ -4,11 +4,6 @@ metadata:
   name: app1
 spec:
   type: ClusterIP
-  externalIPs:
-    - 192.168.60.110
-    - 172.18.0.2
-    - 172.18.0.1
-    - 0.0.0.0
   ports:
     - port: 8080
       targetPort: 80
