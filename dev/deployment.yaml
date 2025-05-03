@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app1
+  name: pissenlit
 spec:
   selector:
     matchLabels:
-      app: app1
+      app: pissenlit
   replicas: 3
   template:
     metadata:
       labels:
-        app: app1
+        app: pissenlit
     spec:
       containers:
-        - name: app1
+        - name: pissenlit
           image: stelirion/pissenlit:v1.0.1
           ports:
             - containerPort: 80
